@@ -8,7 +8,10 @@
 
 ## Структура
 - `index.html` — главная: логотип, слоган, список приложений, блок компании
-- `policies/privacy.html` — политика конфиденциальности
+- `policies/privacy.html` — политика компании BlackLabr Limited (сайт)
+- `policies/fishing-app-privacy.html` — политика продукта Fishing App
+- `favicon.ico`, `assets/` — иконки и логотип
+- `CNAME` — кастомный домен (blacklabr.com)
 
 ## Запуск локально
 Откройте `index.html` в браузере. Или поднимите статический сервер:
