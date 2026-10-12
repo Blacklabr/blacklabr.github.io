@@ -81,5 +81,20 @@
 
   </main>
 
+  <!-- Chatwoot: Blacklabr → Blacklabr Website (chat.blacklabr.com, repo blacklabr-servers, chatwoot/) -->
+  <script>
+    window.chatwootSettings = { position: 'right', type: 'standard' };
+    (function (d, t) {
+      var BASE_URL = "https://chat.blacklabr.com";
+      var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      g.src = BASE_URL + "/packs/js/sdk.js";
+      g.async = true;
+      s.parentNode.insertBefore(g, s);
+      g.onload = function () {
+        window.chatwootSDK.run({ websiteToken: 'SnYtj5sL4Vx1crRxBTtQUiWE', baseUrl: BASE_URL });
+      };
+    })(document, "script");
+  </script>
+
 </body>
 </html>
